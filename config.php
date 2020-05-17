@@ -31,7 +31,7 @@
 	// *** Basic settings (important!) ***
 	// ***********************************
 
-	define('SELF_URL_PATH', $_ENV["TTRSS_SELF_URL_PATH"]);
+	define('SELF_URL_PATH', $_ENV["https://tt-rssss.herokuapp.com"]);
 	// Full URL of your tt-rss installation. This should be set to the
 	// location of tt-rss directory, e.g. http://example.org/tt-rss/
 	// You need to set this option correctly otherwise several features

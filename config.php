@@ -15,7 +15,6 @@
 	// *******************************************
 	// *** Database configuration (important!) ***
 	// *******************************************
-   	define('_SKIP_SELF_URL_PATH_CHECKS', true)
 	define('DB_TYPE', "pgsql"); // or mysql
 	define('DB_HOST', $heroku_db['hostname']);
 	define('DB_USER', $heroku_db['username']);
